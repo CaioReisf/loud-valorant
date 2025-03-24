@@ -60,9 +60,8 @@ main{
     justify-content: center;
     align-items: center;
 }
-#s1{
-    border: 1px white solid;
-    display: flex;
+#s1{    
+    display: flex;    
     justify-content: center;  /* Centraliza horizontalmente */
     align-items: center;      /* Centraliza verticalmente */
     height: 100vh;            /* Faz a div ocupar toda a altura da tela */      
@@ -83,13 +82,53 @@ main{
   
 
 #s2{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    gap: 50px;      
-    margin-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 50px; 
+  background-color: rgb(51, 121, 60);
+  width: 100%;
+  padding: 50px;
 }
 article{
     width: 500px;
 }
+.his1>img{
+  box-shadow: 3px 3px 2px black;
+}
+h1{
+  font-size: 3em;
+  font-weight: 900;
+  box-shadow: 2px 2px 0px white;
+}
+h2{  
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#s3{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 50px; 
+  background-color:white;  
+  width: 100%;
+  padding: 50px;
+}
+.h1verde{
+  font-size: 3em;
+  font-weight: 900;
+  box-shadow: 2px 2px 0px rgb(51, 121, 60);
+  color: rgb(51, 121, 60);
+}
+.h2verde{  
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgb(51, 121, 60);
+}
+.verde{  
+  color: rgb(51, 121, 60);
+}
+
+
 
