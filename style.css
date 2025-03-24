@@ -19,6 +19,7 @@ body{
     background-color: #004b23;
     background: black url(imagens/140392-loud-valorant-champions-article_cover_bd-1.webp) center no-repeat fixed;
     background-size: cover;
+    position: relative;
 }
 
 body::before {
@@ -55,10 +56,40 @@ nav >a:hover{
 }
 main{
     display: flex;
+    flex-flow: column ;
     justify-content: center;
     align-items: center;
 }
-.feu{   
+#s1{
+    border: 1px white solid;
     display: flex;
-    margin: auto;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+    height: 100vh;            /* Faz a div ocupar toda a altura da tela */      
+      
 }
+@keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .feuu {
+    animation: girar 15s linear infinite;
+  }
+  
+
+#s2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;      
+    margin-top: 30px;
+}
+article{
+    width: 500px;
+}
+
