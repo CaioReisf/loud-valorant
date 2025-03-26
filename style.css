@@ -18,7 +18,7 @@
 body{
     background-color: #004b23;
     background: black url(imagens/140392-loud-valorant-champions-article_cover_bd-1.webp) center no-repeat fixed;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 }
 
@@ -32,6 +32,7 @@ body::before {
     background: rgba(0, 0, 0, 0.5); /* Escurece a imagem */
     backdrop-filter: blur(3px); /* Aplica blur */
     z-index: -1; /* Mantém o efeito no fundo */
+    overflow: hidden;
   }
 
 header{   
