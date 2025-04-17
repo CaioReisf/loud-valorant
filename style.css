@@ -33,7 +33,7 @@ body::before {
     backdrop-filter: blur(3px); /* Aplica blur */
     z-index: -1; /* Mantém o efeito no fundo */
     overflow: hidden;
-  }
+}
 
 header{   
     display: flex;
